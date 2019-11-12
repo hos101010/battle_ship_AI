@@ -1,0 +1,18 @@
+python 3
+python -m pip install --upgrade pip
+Tkinter -> tkinter
+pip install numpy
+
+// pip가 없을 시
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python get-pip.py
+
+//python3가 설치되어 있을 시 환경변수에서 우선순위를 바꿔줘야함
+제어판 -> 시스템 -> 시스템 -> 환경변수 -> path에 
+C:\Python27
+C:\Python27\Scripts
+추가해줘야함. 
+
+//version 확인은 python --version
+
+pip install matplotlib
